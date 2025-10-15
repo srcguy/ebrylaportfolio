@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@theme {
+  --color-autumn-1: #F5F5DD;
+  --color-autumn-1-2: #F0F0D0;
+  --color-autumn-2: #C7AD7F;
+  --color-autumn-3: #CC9767;
+  --color-autumn-4: #A57A5A;
+  --color-autumn-5: #AE6E4E;
+  --color-autumn-6: #8B4411;
+}
+html {
+  scrollbar-width: none;
+}
+.slick-prev,
+.slick-next {
+  z-index: 10;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+}
